@@ -22,7 +22,7 @@ class Artist
     @songs 
   end
   
-  def self.all 
+  def all 
     @@all
   end
   
