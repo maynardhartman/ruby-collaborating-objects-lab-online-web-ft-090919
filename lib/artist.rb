@@ -9,7 +9,7 @@ class Artist
   end
   
   def self.all 
-    return(@@all)
+    @@all
   end
   
   def add_song(song)
