@@ -23,7 +23,7 @@ class Artist
   end
   
   def self.all 
-    return @@all
+    @@all
   end
   
    def save
