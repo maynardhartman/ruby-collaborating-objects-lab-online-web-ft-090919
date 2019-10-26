@@ -16,6 +16,7 @@ class Artist
     song.artist = self
     @songs << song
     save
+    song
   end 
   
   def songs  
